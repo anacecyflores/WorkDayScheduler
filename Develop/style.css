@@ -1,6 +1,10 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+font-family: 'Josefin Sans',
+sans-serif;
+font-family: 'Shadows Into Light',
+cursive;
+font-family: 'Source Code Pro',
+monospace;
   line-height: 1;
 }
 
@@ -48,7 +52,7 @@ textarea {
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #f18680;
   color: white;
 }
 
@@ -57,11 +61,10 @@ textarea {
   color: white;
 }
 
-.saveBtn {
+.btn {
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+display: flex;
+  background-color: #4b214e;
   color: white;
 }
 
@@ -69,17 +72,14 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
 body {
-
-  background-color: snow;
-
+  background-color: #e8e3ed;
 }
 
 .jumbotron {
   background-size: cover;
   box-shadow: 2px black;
-
-
 }
 
 h1 {
@@ -91,103 +91,76 @@ p {
   font-family: 'Questrial', sans-serif;
   text-align: center;
   margin-top: 15px;
-
-
 }
 
 .lead {
-
-  text-shadow: 2px 2px rgb(220, 27, 27);
-
-
+  font-family: 10px;
+  text-shadow: 2px 2px rgb(22, 6, 6);
 }
 
 .plannerDiv {
-
   border-radius: 25px;
   box-shadow: 2px black;
 }
 
-
-
 #text9AM {
-
   border-radius: 5px;
-
-
-
-
-
 }
 
 #text10AM {
-
   border-radius: 5px;
 }
 
 #text11AM {
-
   border-radius: 5px;
 }
 
 #text12AM {
-
   border-radius: 5px;
 }
 
 #text1PM {
-
   border-radius: 5px;
 }
 
 #text2PM {
-
   border-radius: 5px;
 }
 
 #text3PM {
-
   border-radius: 5px;
 }
 
 #text4PM {
-
   border-radius: 5px;
 }
 
 #text5PM {
-
   border-radius: 5px;
 }
 
-
-
 .headerDiv {
-  /* background-image: url("Assets/sunmoon.jpg"); */
-  color: white;
+  color: rgb(221, 178, 178);
   font-family: 'Questrial', sans-serif;
-
 }
 
 textarea p {
   -webkit-box-shadow: inset 2px 2px 2px 0px #dddddd;
   -moz-box-shadow: inset 2px 2px 2px 0px #dddddd;
   box-shadow: inset 2px 2px 2px 0px #dddddd;
-
-
 }
 
 .bg-red {
-  background-color: rgb(255, 1, 1);
+  font-style: italic;
+  background-color: rgb(236, 99, 99);
 }
 
 .bg-green {
-
-  background-color: rgba(8, 131, 8, 0.788);
+  background-color: rgba(107, 197, 107, 0.788);
 }
 
 .bg-gray {
-  background-color: #cfdce9da;
+  background-color: #fab8f1da;
 }
 
 /* 
@@ -198,7 +171,6 @@ These rules take effect when the browser's width
 
   .jumbotron {
     height: 300px;
-
   }
 
   p {
@@ -215,12 +187,10 @@ These rules take effect when the browser's width
 
   .jumbotron {
     height: 300px;
-
   }
 
   .hourC {
     margin-right: 0px;
-
   }
 
   .spanBttn {
