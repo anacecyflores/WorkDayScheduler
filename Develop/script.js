@@ -6,7 +6,7 @@ $(document).ready(function () {
 
   var now = parseInt(moment().format("HH"));
 
-  var $text9AM = $("#textAM");
+  var $text9AM = $("#text9AM");
   var $text10AM = $("#text10AM");
   var $text11AM = $("#text11AM");
   var $text12AM = $("#text12AM");
@@ -33,7 +33,7 @@ $(document).ready(function () {
   });
 
   $("button").on("click", function () {
-    //setting items in the local storage
+    //local storage
     localStorage.setItem("9AM", $text9AM.val());
     localStorage.setItem("10AM", $text10AM.val());
     localStorage.setItem("11AM", $text11AM.val());
@@ -46,8 +46,8 @@ $(document).ready(function () {
   });
 
   //getting the content stored and sending to the screen. When page is refreshed content will stay
-  $("#text9AM").append(localStorage.getItem("9AM"));
-  $("#text10AM").append(localStorage.getItem("10AM"));
+  $("#text9AM").val(localStorage.getItem("9AM"));
+  $("#text10AM").val(localStorage.getItem("10AM"));
   $("#text11AM").append(localStorage.getItem("11AM"));
   $("#text12AM").append(localStorage.getItem("12AM"));
   $("#text1PM").append(localStorage.getItem("13PM"));

@@ -43,7 +43,7 @@ textarea {
 }
 
 .past {
-  background-color: #948cef;
+  background-color: #c9c6ef;
   color: white;
 }
 
@@ -163,7 +163,7 @@ p {
 
 
 .headerDiv {
-  background-image: url("azsunrise.jpg");
+  /* background-image: url("Assets/sunmoon.jpg"); */
   color: white;
   font-family: 'Questrial', sans-serif;
 
