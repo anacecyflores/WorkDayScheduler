@@ -5,7 +5,6 @@ $(document).ready(function () {
   $(".todaysDate").text(today);
 
   var now = parseInt(moment().format("HH"));
-  console.log(now);
 
   var $text9AM = $("#textAM");
   var $text10AM = $("#text10AM");
@@ -19,16 +18,17 @@ $(document).ready(function () {
 
   $("textarea").each(function () {
     var name = parseInt($(this).attr("name"));
+    console.log(this);
     if (name < now) {
-      $(this).addClass("bg-gray");
+      $(this).addClass("past");
     }
 
     if (name > now) {
-      $(this).addClass("bg-green");
+      $(this).addClass("present");
     }
 
     if (name === now) {
-      $(this).addClass("bg-red");
+      $(this).addClass("future");
     }
   });
 
