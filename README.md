@@ -10,4 +10,3 @@ uses Bootstrap functions!
 ![Screen Shot 2022-05-06 at 3 04 24 PM](https://user-images.githubusercontent.com/95557040/167228798-0634e642-f02d-4f54-a79b-4cd295ad2812.png)
 
 ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
-https://choosealicense.com/licenses/mit/
